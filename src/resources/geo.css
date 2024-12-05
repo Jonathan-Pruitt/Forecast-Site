@@ -1,0 +1,76 @@
+.error-text {
+    position:absolute;
+    bottom: 1%;
+    position-area: center;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #264d7daa;
+}
+
+.fullscreen > h1 {
+    position: inherit;
+    top: 100px;
+}
+
+.list-item {
+    cursor: pointer;    
+    background-color: #f3f3f3;
+    transition : .3s;
+    border-radius: 5px;
+    padding : 1% 0;
+    border : 1px solid #d0d0d0;
+    border-width: 1px 0;
+}
+
+.list-item > p {
+    margin: 0;
+    padding: 1% 3px;
+}
+
+.list-item:hover {
+    background-color: #e5e5e5;
+    transition : .3s;
+}
+
+.pop-up-box {
+    position: inherit;
+    translate: 0 calc(50vh - 50%);
+    width: 80vw;
+    height: 40vh;
+    border: 3px solid #264d7d;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+}
+
+.response-list {
+    position : fixed;
+    top: -25%;
+    border: 3px solid #264d7d;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+#exit {
+    position: absolute;
+    top : 0;
+    right : 0;
+    translate: 50% -50%;
+    border: 2px solid #101010;
+    border-radius: 50%;
+    font-weight: bold;
+    translate: 50% -50%;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e0e0e0;
+    cursor: default;
+}
