@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color : #c0c0c0;
+    transition : .3s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #909090;
+    transition : .2s;
+}
+
+body {
+    background-color: #dcdcdc;
+    color: #404040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-img {
+    opacity: .6;
+}
+
+.crawl {
+    margin-bottom : 1%;
+    background-color: #264d7d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #f0f0f0;
+    text-shadow: 0 0 5px #101010;
+}
+
+.end-line {
+    border: 2px solid black;
+    border-width: 0 2px 0 0;
+}
+
+.fa {
+    font-size: calc(3vw + 2rem);
+}
+
+.fill {
+    max-height: 100%;
+    min-height: 50%;
+    text-align: center;
+    align-self: center;
+    font-size : calc(1vw + .3rem);
+}
+
+.fs-6 {
+    font-size : calc(1vw + .25rem);
+    margin : calc(2% + 2px) 0;
+}
+
+.header {
+    font-weight: bold;
+    font-size: calc(3vw + 1rem);
+    text-shadow: 0 0 10px #ffffff;
+}
+
+#contact {
+    margin-bottom : 2%;
+    padding-top: 3%;
+    border-top : 3px solid #264d7d;
+}
+
+.hidden {
+    translate: 0 -50px;
+    transition: .2s;
+    opacity: 0;    
+}
+
+.card-body > .hidden {
+    position: absolute;
+}
+
+.shown {
+    position : unset;
+    transition: .5s;
+    opacity: 1;
+}
+
+.text-truncate:hover {
+    overflow: visible;
+}
+
+.txt-underline {
+    text-decoration: underline;
+}
+
+.no-pad {
+    padding : 0;
+}
+
+.text-expand {
+    transition: .6s;
+    cursor: default;
+}
+
+.text-expand:hover {
+    transition: .4s;
+    letter-spacing: .4rem;
+}
+
+.drop-shadow {
+    box-shadow: 0 2px 3px #111133;
+}
+
+.post-nav {
+    padding : 100px 0 0 0;
+    margin-bottom : 4%;
+}
+
+.uniform {
+    height: 100px;
+    border: 3px solid black;
+    border-width: 3px 0;
+    border-radius: 5px;
+}
+
+.day {
+    color: #22115d;
+    -webkit-text-stroke: 1px #f0f0f0;
+}
+
+.night {
+    color: #f0f0f0;
+    -webkit-text-stroke: 1px #202020;
+}
+
+.light {
+    background-color: #e5e5e5;
+}
+
+.dark {
+    background-color: #d0d0d0;
+}
+
+.period {
+    font-size: calc(2.5vw + 1.5rem);
+    font-weight: bold;
+    top : 5px;
+    left : 10px;
+}
+
+.temp {
+    font-size: calc(7vw + 2rem);    
+    position : absolute;
+    top: 150px;
+    left: 10%;
+    text-shadow: 3px 3px 6px #101010;
+}
+
+.fixed-arrow {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1030;
+}
+
+.arrow-hide {
+    opacity : 0;
+    transition : .3s;
+}
+
+.arrow-show {
+    opacity: 1;
+    transition : .7s;
+}
+
+.btn-up {
+    background-color: #ffffff00;    
+    border: 0;
+    border-radius: 50%;
+}
+
+.top-arrow {    
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: #ffffffaa;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 575px) {
+    .temp {
+        font-size : 35vw;
+    }
+
+    .period {
+        font-size: 2.7rem;
+    }
+}
