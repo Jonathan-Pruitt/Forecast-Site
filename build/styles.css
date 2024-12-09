@@ -87,10 +87,6 @@ body {
     overflow: visible;
 }
 
-.txt-underline {
-    text-decoration: underline;
-}
-
 .no-pad {
     padding : 0;
 }
